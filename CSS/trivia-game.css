@@ -1,0 +1,59 @@
+body {
+    background-image: url(/Images/pic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: turquoise;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+
+ 
+
+.container {
+     font-size: 22px; color: aquamarine;
+     margin-top: 150px;
+     
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+.instructions {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  #question-container {
+    margin-bottom: 20px;
+  }
+
+  .choice {
+    font-style:inherit;
+    color: paleturquoise;
+    font-size: 25px;
+    margin: 10px;
+    display: inline-block;
+  }
+
+  button {
+    font-style: oblique;
+    padding: 10px;
+    cursor: pointer, crosshair;
+    background-color: aquamarine;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
+  #status-container {
+    margin-top: 20px;
+  }
+
+  #start-game-container,
+  #game-container {
+    display: none;
+  }
+
+
